@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '片面 Crypto',
-  tagline: 'Dinosaurs are cool',
+  tagline: '写点和 Crypto 相关的东西',
   favicon: 'img/wayne.ico',
 
   // Set the production url of your site here
