@@ -10,7 +10,7 @@ export default function Hello() {
       <div className={styles.aboutMeIntro}>
         <h1>about me</h1>
         <p>
-          I am Wayne.
+          I am Wayne. I am Wayne. I am Wayne. I am Wayne. I am Wayne. I am Wayne. I am Wayne. I am Wayne. I am Wayne. I am Wayne. I am Wayne. I am Wayne. I am Wayne. I am Wayne. I am Wayne. I am Wayne. I am Wayne. I am Wayne. I am Wayne. I am Wayne. I am Wayne. I am Wayne. 
         </p>
       </div>
     </Layout>
