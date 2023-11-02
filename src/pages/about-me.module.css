@@ -1,0 +1,17 @@
+.aboutMeIntro{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  margin: auto;
+  width: 40%;
+}
+
+.aboutMeIntro p{
+  font-size: 24px;
+}
+
+.aboutMeIntro h1{
+  font-size: 60px;
+
+}

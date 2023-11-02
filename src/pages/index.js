@@ -2,7 +2,8 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
+// import HomepageFeatures from '@site/src/components/HomepageFeatures';
+
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
@@ -20,7 +21,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            文章列表 🚀
           </Link>
         </div>
       </div>
@@ -32,11 +33,19 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title}`}
+      description="这里是我写东西的地方 <head />">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <div className={styles.quote}>
+          <blockquote>失败总是贯穿人生始终，这就是人生。</blockquote>
+          <cite> --- DWG.ShowMaker</cite>
+        </div>
+        <div>
+          <p className={styles.statement}>
+            made by wayne
+            </p>
+          </div>
       </main>
     </Layout>
   );
