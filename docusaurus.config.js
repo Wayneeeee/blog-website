@@ -84,6 +84,8 @@ const config = {
             label: '概念解释',
           },
           {to: '/blog', label: '文章', position: 'left'},
+          {to: '/about-me', label: 'About', position: 'right'},
+
           {
             href: 'https://twitter.com/0xwayne_z',
             label: 'Twitter',
@@ -99,6 +101,7 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          
         ],
       },
       

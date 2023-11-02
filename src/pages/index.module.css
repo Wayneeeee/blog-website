@@ -60,6 +60,9 @@ p{
   justify-content: center;
 }
 
+.statement p a{
+  color: rgb(189, 164, 164);
+}
 
 
 /* a{

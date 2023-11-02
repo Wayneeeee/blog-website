@@ -7,7 +7,7 @@ import styles from './about-me.module.css';
 export default function Hello() {
   return (
     <Layout title="about me" description="Hello React Page">
-      <div className="aboutMeIntro">
+      <div className={styles.aboutMeIntro}>
         <h1>about me</h1>
         <p>
           I am Wayne.

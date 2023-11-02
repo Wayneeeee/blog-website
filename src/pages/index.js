@@ -43,7 +43,7 @@ export default function Home() {
         </div>
         <div className={styles.statement}>
           <p>
-            made by wayne
+            made by <a href="http://localhost:3000/about-me">wayne</a> 
             </p>
         </div>
         <div className={styles.bottomtwitter}>

@@ -5,13 +5,19 @@
   height: 50vh;
   margin: auto;
   width: 40%;
+
+  
+}
+
+
+.aboutMeIntro h1{
+  font-size: 50px;
+  font-family: "Gill Sans", sans-serif;
+
 }
 
 .aboutMeIntro p{
-  font-size: 24px;
-}
-
-.aboutMeIntro h1{
-  font-size: 60px;
-
+  font-size: 20px;
+  margin-top: 30px;
+  font-family: "Gill Sans", sans-serif;
 }
