@@ -28,16 +28,3 @@ DeFi 最早可以追溯到比特币发明时的 2008 年，比特币最初出现
 - 2018 年 11 月，Uniswap 正式被发布并上线以太坊。Uniswap 的创始人是 Hayden Adams。有趣的是 Hayden Adams 在开发 Uniswap 之前是西门子公司的一个机械工程师，但是他在 17 年 6 月被辞退了。随后在以太坊基金会工作的朋友 Karl Floersch 的推荐之下开始研究智能合约，并开始准备做 Uniswap。
 
 ![uniswap](img/history-of-defi-uniswap.png "Uniswap 的创始人 Hayden Adams 被辞退后与 Karl Floersch 的对话，来源：Uniswap 博客")
-
-
-## Create your first Markdown Page
-
-Create a file at `src/pages/my-markdown-page.md`:
-
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
-
-This is a Markdown page
-```
-
-A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
