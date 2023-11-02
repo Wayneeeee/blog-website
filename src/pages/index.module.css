@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 996px) {
   .heroBanner {
-    padding: 2rem 2rem;
+    padding: 3rem 2rem;
   }
   .heroBanner h1{
     font-size: 2rem;
@@ -28,7 +28,7 @@
     font-size: 1rem;
   }
   main .quote{
-    margin: 10rem auto;
+    margin: 6rem auto;
   }
 }
 
@@ -37,7 +37,7 @@
   flex-direction: column;
   align-items: center;
   align-content: normal;
-  margin: 15rem auto;
+  margin: 12rem auto;
 }
 
 blockquote{
@@ -55,7 +55,7 @@ cite{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 
