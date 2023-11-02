@@ -74,7 +74,7 @@ const config = {
         title: '片面 Crypto',
         logo: {
           alt: '片面 Crypto',
-          src: 'img/wayne.jpg',
+          src: 'img/wayne.png',
         },
         items: [
           {
