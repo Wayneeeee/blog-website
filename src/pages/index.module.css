@@ -4,7 +4,7 @@
  */
 
 .heroBanner {
-  padding: 5rem 0rem;
+  padding: 8rem 0rem;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 996px) {
   .heroBanner {
-    padding: 5rem;
+    padding: 8rem;
   }
 }
 
@@ -23,12 +23,6 @@
   align-items: center;
   align-content: normal;
   margin: 15rem auto;
-}
-.statement{
-  color: rgb(189, 164, 164);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 blockquote{
@@ -48,3 +42,26 @@ cite{
   justify-content: center;
   margin-top: 4rem;
 }
+
+p{
+  font-size: 1.2rem;
+}
+
+.statement{
+  color: rgb(189, 164, 164);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottomtwitter a{
+  color: rgba(98, 125, 180, 0.824);
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/* a{
+  color: brown;
+} */

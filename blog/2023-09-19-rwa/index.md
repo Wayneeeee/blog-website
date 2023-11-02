@@ -5,7 +5,6 @@ slug: rwa
 authors: wayne
 tags: [RWA, DeFi]
 image: https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F790b442d-eede-44b8-ba62-62b06710de84_1000x463.png
-hide_table_of_contents: false
 ---
 新加坡 2049 结束了，在微信群/朋友圈也看到了几个小作文。大部人总结的大约都是一个比较悲观的态度，的确在会场也只能看到交易所钱多大赞助，其他的项目相对而言都比较没有那么隆重。
 

@@ -44,14 +44,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Wayneeeee/blog-website/tree/main/blog',
+            'https://github.com/Wayneeeee/blog-website/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Wayneeeee/blog-website/tree/main/blog',
+            'https://github.com/Wayneeeee/blog-website/blob/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -81,11 +81,21 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: '概念解释',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: '文章', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://twitter.com/0xwayne_z',
+            label: 'Twitter',
+            position: 'right',
+          },
+          {
+            href: 'https://t.me/narrative_tracking',
+            label: 'Telegram',
+            position: 'right',
+          },
+          {
+            href: 'https://github.com/Wayneeeee',
             label: 'GitHub',
             position: 'right',
           },

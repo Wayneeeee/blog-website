@@ -20,7 +20,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="/blog">
             文章列表 🚀
           </Link>
         </div>
@@ -41,9 +41,15 @@ export default function Home() {
           <blockquote>失败总是贯穿人生始终，这就是人生。</blockquote>
           <cite> --- DWG.ShowMaker</cite>
         </div>
-        <div>
-          <p className={styles.statement}>
+        <div className={styles.statement}>
+          <p>
             made by wayne
+            </p>
+        </div>
+        <div className={styles.bottomtwitter}>
+            <p>
+              <a href="https://twitter.com/0xwayne_z">x (twitter)</a>
+              <a href="mailto:zwzwkl@hotmai.com">email</a>
             </p>
           </div>
       </main>
