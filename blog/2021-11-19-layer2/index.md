@@ -1,5 +1,5 @@
 ---
-title: Layer 笔记/介绍
+title: Layer 2 笔记/介绍
 description: 侧链是一条链，二层协议没有链。侧链也是链，所以有节点，有共识机制，有存储板块，有区块。二层协议不是链，所以没有节点，没有共识机制，没有区块的概念。
 slug: intro-of-layer2
 authors: wayne

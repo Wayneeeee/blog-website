@@ -1,5 +1,5 @@
 ---
-title: 比特币 NFT，BRC20 以及 Ordinal
+title: 比特币 NFT，BRC20 & Ordinal
 description: 所以 BRC20 是一个协议标准，可以根据这个协议在比特币网络上发币。发币也只需要设置简单的参数就能做了。
 slug: what-is-brc20
 authors: wayne
