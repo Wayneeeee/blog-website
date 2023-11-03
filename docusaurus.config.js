@@ -153,7 +153,7 @@ const config = {
         // logo: {
         //   src: 'img/wayne.png',
         // },
-        copyright: `made by wayne & built with Docusaurus.`,
+        copyright: `欲买桂花同载酒，终不似，少年游。`,
       },
       
       prism: {
