@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/wayne.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://pmcrypto.xyz/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -33,6 +33,7 @@ const config = {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
   },
+  
 
   presets: [
     [
@@ -77,13 +78,14 @@ const config = {
           src: 'img/wayne.png',
         },
         items: [
+
+          {to: '/blog', label: '文章', position: 'left'},
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: '概念解释',
           },
-          {to: '/blog', label: '文章', position: 'left'},
           {to: '/about-me', label: 'About', position: 'right'},
 
           {
@@ -103,6 +105,55 @@ const config = {
           },
           
         ],
+      },
+      footer: {
+        // links: [
+          // {
+          //   title: 'Docs',
+          //   items: [
+          //     {
+          //       label: 'Introduction',
+          //       href: '/docs',
+          //       target: '_self',
+          //     },
+          //   ],
+          // },
+          // {
+          //   title: 'Community',
+          //   items: [
+          //     {
+          //       label: 'User Showcase',
+          //       href: '/users',
+          //       target: '_self',
+          //     },
+          //   ],
+          // },
+          // {
+          //   title: 'Legal',
+          //   items: [
+          //     {
+          //       label: 'Privacy',
+          //       href: 'https://opensource.facebook.com/legal/privacy/',
+          //     },
+          //     {
+          //       label: 'Terms',
+          //       href: 'https://opensource.facebook.com/legal/terms/',
+          //     },
+          //     {
+          //       label: 'Data Policy',
+          //       href: 'https://opensource.facebook.com/legal/data-policy/',
+          //     },
+          //     {
+          //       label: 'Cookie Policy',
+          //       href: 'https://opensource.facebook.com/legal/cookie-policy/',
+          //     },
+          //   ],
+          // },
+        // ],
+        // logo: {
+        //   src: 'img/wayne.png',
+        // },
+        copyright: `made by wayne & built with Docusaurus.`,
       },
       
       prism: {
