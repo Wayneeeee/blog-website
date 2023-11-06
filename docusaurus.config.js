@@ -70,7 +70,7 @@ const config = {
         {name:'twitter:card', content:'片面 Crypto'},
         {name:'twitter:site', content:'@0xwayne_z'},
       ],
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/pmcrypto.png',
       navbar: {
         title: '片面 Crypto',
         logo: {
