@@ -1,9 +1,8 @@
 ---
 sidebar_position: 1
-id: a brief history of defi
 title: DeFi 的历史回顾
 description: 真正将 DeFi 这个概念发扬光大的是在以太坊诞生以后。
-slug: /a-brief-history-of-defi
+slug: a-brief-history-of-defi
 ---
 
 # DeFi 的历史回顾
