@@ -1,6 +1,6 @@
 ---
 title: 基于 LST 的接待协议 Prisma
-description: 
+description: Prisma 是一个基于 LST 的稳定币和借贷协议，TVL 量增长很快，但是币价下跌更快。
 slug: wtf-is-prisma
 authors: wayne
 tags: [DeFi, Lending]
