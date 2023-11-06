@@ -33,8 +33,9 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
-      description="这里是我写东西的地方 <head />">
+      // title={`${siteConfig.title}`}
+      title='Wayne'
+      description="写点和 Crypto 有关的东西">
       <HomepageHeader />
       <main>
         <div className={styles.quote}>
@@ -43,7 +44,7 @@ export default function Home() {
         </div>
         <div className={styles.statement}>
           <p>
-            made by <a href="http://localhost:3000/about-me">wayne</a> 
+            made by <a href="https://pmcrypto.xyz/about-me" color='rgb(189, 164, 164)'>wayne</a> 
             </p>
         </div>
         <div className={styles.bottomtwitter}>

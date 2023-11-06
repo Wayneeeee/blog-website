@@ -1,6 +1,6 @@
 ---
 title: 反向 RWA
-description: This is my first post on Docusaurus.
+description: 要索取 不要回报
 slug: rwa
 authors: wayne
 tags: [RWA, DeFi]

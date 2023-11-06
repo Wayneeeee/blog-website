@@ -70,12 +70,23 @@ const config = {
         {name:'twitter:card', content:'片面 Crypto'},
         {name:'twitter:site', content:'@0xwayne_z'},
       ],
+      // 网页顶部的 announcement
+      // announcementBar: {
+      //   id: 'support_me',
+      //   content:
+      //     'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+      //   backgroundColor: '#fafbfc',
+      //   textColor: '#091E42',
+      //   isCloseable: false,
+      // },
+      // 封面图片
       image: 'img/pmcrypto.png',
       navbar: {
         title: '片面 Crypto',
         logo: {
           alt: '片面 Crypto',
           src: 'img/wayne.png',
+          // style: {border: 'solid red'},
         },
         items: [
 
@@ -84,25 +95,45 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: '概念解释',
+            label: '杂',
           },
           {to: '/about-me', label: 'About', position: 'right'},
 
+          // {
+          //   href: 'https://twitter.com/0xwayne_z',
+          //   label: 'Twitter',
+          //   position: 'right',
+          // },
+          // {
+          //   href: 'https://t.me/narrative_tracking',
+          //   label: 'Telegram',
+          //   position: 'right',
+          // },
+          // {
+          //   href: 'https://github.com/Wayneeeee',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
           {
-            href: 'https://twitter.com/0xwayne_z',
-            label: 'Twitter',
+            type: 'dropdown',
+            label: 'Social',
             position: 'right',
-          },
-          {
-            href: 'https://t.me/narrative_tracking',
-            label: 'Telegram',
-            position: 'right',
-          },
-          {
-            href: 'https://github.com/Wayneeeee',
-            label: 'GitHub',
-            position: 'right',
-          },
+            items: [
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/0xwayne_z',
+              },
+              {
+                label: 'Telegram',
+                href: 'https://t.me/narrative_tracking',
+              },
+              {
+                label:'GitHub',
+                href: 'https://github.com/Wayneeeee',
+              }
+            ]
+            },
+
           
         ],
       },
