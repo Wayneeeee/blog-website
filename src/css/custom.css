@@ -23,6 +23,9 @@ img{
   border-radius: 6px;
 }
 
+
+
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #e6e6e6;
