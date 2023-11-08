@@ -1,7 +1,6 @@
 # Website
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
-
+这是一个基于 Docusaurus 3 搭建的网站，具体的操作和使用方式可以查看官方最新发布的 [v3 版本](https://docusaurus.io/blog/releases/3.0)。
 ### Installation
 
 ```
