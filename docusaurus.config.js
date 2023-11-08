@@ -49,6 +49,13 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
+          blogTitle: "文章",
+          blogDescription: '片面 Crypto 的文章列表。',
+
+
+
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:

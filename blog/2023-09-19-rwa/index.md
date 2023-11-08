@@ -16,6 +16,9 @@ image: https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_
 
 明年减半，加上比特币/以太坊 ETF 得到批准很有可能是下一轮（如果有牛市）的重点发动点这个事情相信很多人已经知道，所以就不多说了。
 
+<!-- truncate -->
+
+
 ## RWA - 买美债
 
 今天想分享的是停止加息之后给以太坊带来的新机会。再次之前我们先简单聊聊 RWA。

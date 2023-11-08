@@ -3,7 +3,7 @@ title: Layer 2 笔记/介绍
 description: 侧链是一条链，二层协议没有链。侧链也是链，所以有节点，有共识机制，有存储板块，有区块。二层协议不是链，所以没有节点，没有共识机制，没有区块的概念。
 slug: intro-of-layer2
 authors: wayne
-tags: [RWA, DeFi]
+tags: [Layer2, DeFi, Ethereum]
 image: https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F790b442d-eede-44b8-ba62-62b06710de84_1000x463.png
 ---
 
@@ -24,6 +24,8 @@ image: https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_
 Layer 2 没有区块的概念其实，也没有节点，也不需要共识机制，所以在 Layer2 方案的区块浏览器上，其实看不到区块的。现在去看 Arbitrum 的浏览器，还有一个 Bk，Block，仔细看看每个区块其实就是每个交易，具体请看截图。Layer 2 的运营者只负责把交易排个顺序然后拿去处理。而区块链的关键之处就在于对交易的排序工作。
 
 <img src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9a570a23-2e41-4934-9009-8c9c426a30d8_1408x967.png" />
+
+{/* truncate */}
 
 比如知名的三明治攻击其实就是排序攻击。你要发起一笔交易，付了50刀 Gas 费，有人发现了这笔还没处理的交易（在 Mempool 里面），然后花100刀 Gas 费，做两笔交易，一笔是跟你一样的买你要买的币，第二笔就是把买到的币再卖给你。先买的价格低，后买的价格高。所以对方就用两笔交易把你的交易夹在中间，先把你要买的币买了，然后再提高价格卖给你。
 
