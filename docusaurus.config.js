@@ -53,13 +53,12 @@ const config = {
           blogSidebarCount: 'ALL',
           blogTitle: "文章",
           blogDescription: '片面 Crypto 的文章列表。',
-
-
-
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/Wayneeeee/blog-website/blob/main/',
+        },
+        gtag: {
+          trackingID: 'G-SHML70GYWY',
+          anonymizeIP: false,
         },
         theme: {
           customCss: './src/css/custom.css',
