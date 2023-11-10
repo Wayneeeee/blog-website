@@ -75,6 +75,8 @@ const config = {
       metadata: [
         {name:'twitter:card', content:'片面 Crypto'},
         {name:'twitter:site', content:'@0xwayne_z'},
+        {name: "og:type", content: "article"},
+
       ],
       // 网页顶部的 announcement
       // announcementBar: {
