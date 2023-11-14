@@ -208,8 +208,6 @@ YT Token 的交易场所在 Pendle 内进行，Pendle 设计了 AMM 协议，相
 
 Swivel 和 Pendle 类似，也是一个提供利率衍生品的协议，此外还能提供固定利率存款。在 Pendle 的基础上了解 Swivel 可能更加方便。
 
-![Swivel](./swivel.png)
-
 Pendle，用户把 Interest Bearing Token（cDAI）拆分成一个本金（Ownership Token/Principal Token，也就是零息债券。这个零息债券随着时间的增长增值，最终折价消失能够兑换回本金。另一个是利息凭证（Yield Bear Token，YT Token），利息凭证随着时间推移，价值降低逐渐归零。此外利息凭证还能够获得本金存款的利息。
 
 拆分完之后，用户自行在特殊的 AMM 中交易，AMM 需要考虑的就是上述的特征（均衡点随时间变化）。
