@@ -76,7 +76,7 @@ const config = {
         {name:'twitter:card', content:'片面 Crypto'},
         {name:'twitter:site', content:'@0xwayne_z'},
         {name:'twitter:creator', content:'@0xwayne_z'},
-        {name:'twitter:image', content:'img/pmcrypto.png'},
+        {name:'twitter:image', content:'https://pmcrypto.xyz/img/pmcrypto.png'},
       ],
       // 网页顶部的 announcement
       // announcementBar: {
