@@ -73,7 +73,7 @@ const config = {
       // Replace with your project's social card
       // 推特的设定，关于这部分的内容很多，特别还有结构化数据方面的内容 https://docusaurus.io/docs/seo#global-metadata，与 SEO 有关
       metadata: [
-        {name:'twitter:card', content:'片面 Crypto'},
+        {name:'twitter:card', content:'summary_large_image'},
         {name:'twitter:site', content:'@0xwayne_z'},
         {name:'twitter:creator', content:'@0xwayne_z'},
         {name:'twitter:image', content:'https://pmcrypto.xyz/img/pmcrypto.png'},
