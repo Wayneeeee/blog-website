@@ -77,8 +77,6 @@ const config = {
         {name:'twitter:site', content:'@0xwayne_z'},
         {name:'twitter:creator', content:'@0xwayne_z'},
         {name:'twitter:image', content:'img/pmcrypto.png'},
-        {name: "og:type", content: "summary"},
-
       ],
       // 网页顶部的 announcement
       // announcementBar: {
