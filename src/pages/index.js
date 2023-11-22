@@ -65,7 +65,7 @@ export default function Home() {
       </header>
       <main>
         <div className={styles.quote}>
-          <p>失败总是贯穿人生始终，这就是人生。</p>
+          <p>我们需要革新的破坏者，因为他（她）们心中有理想的光</p>
         </div>
         <div className={styles.statement}>
           <p>
