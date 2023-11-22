@@ -54,6 +54,10 @@ export default function Home() {
             to="/blog">
             文章列表 
           </Link>
+          <Link className={clsx('articlelistbutton', styles.articlelistbutton)}
+            to="/docs/category/narrative-tracking">
+            Narrative Tracking 
+          </Link>
 
 
         </div>
