@@ -29,12 +29,6 @@ function HomepageHeader() {
   );
 }
 
-
-
-
-
-
-
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -42,26 +36,11 @@ export default function Home() {
       // title={`${siteConfig.title}`}
       title='Wayne'
       description="写点和 Crypto 有关的东西">
-      {/* <HomepageHeader /> */}
-      <header>
-        <div className={clsx('homepagetitle', styles.homepagetitle)}>
-          <img src="https://pmcrypto.xyz/img/wayne.png" alt="wayne"></img>
-        <h1>
-          片面 Crypto
-        </h1>
-        
-        <Link className={clsx('articlelistbutton', styles.articlelistbutton)}
-            to="/blog">
-            文章列表 
-          </Link>
-
-
-        </div>
-
-      </header>
+      <HomepageHeader />
       <main>
         <div className={styles.quote}>
-          <p>失败总是贯穿人生始终，这就是人生。</p>
+          <blockquote>失败总是贯穿人生始终，这就是人生。</blockquote>
+          <cite> --- DWG.ShowMaker</cite>
         </div>
         <div className={styles.statement}>
           <p>
@@ -75,7 +54,6 @@ export default function Home() {
             </p>
           </div>
       </main>
-
     </Layout>
   );
 }

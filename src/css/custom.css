@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #28282B;
+  --ifm-color-primary: #000000;
   --ifm-color-primary-dark: #121212;
   --ifm-color-primary-darker: #0f0f0f;
   --ifm-color-primary-darkest: #0d0d0d;
@@ -23,7 +23,7 @@ img{
   border-radius: 6px;
 }
 
-p{
+blockquote{
   font-size: 1rem;
 }
 

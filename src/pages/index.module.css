@@ -32,9 +32,7 @@ article{
   .quote cite{
     font-size: 1rem;
   }
-  main .quote{
-    margin: 6rem auto;
-  }
+
   
 }
 
@@ -82,7 +80,17 @@ cite{
   color: rgb(189, 164, 164);
 }
 
+.homepagetitle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+  font-size: 2rem;
+}
+.homepagetitle h1{
+  padding: 20px 0;
+}
 
-/* a{
-  color: brown;
-} */
+.articlelistbutton{
+  font-size: 1rem;
+}

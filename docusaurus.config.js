@@ -90,7 +90,7 @@ const config = {
       // 封面图片
       image: 'img/pmcrypto.png',
       navbar: {
-        title: '片面 Crypto',
+        title: '',
         logo: {
           alt: '片面 Crypto',
           src: 'img/wayne.png',
@@ -103,7 +103,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: '杂',
+            label: 'Narrative Tracking',
           },
           {to: '/about-me', label: 'About', position: 'right'},
 
@@ -122,25 +122,25 @@ const config = {
           //   label: 'GitHub',
           //   position: 'right',
           // },
-          {
-            type: 'dropdown',
-            label: 'Social',
-            position: 'right',
-            items: [
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/0xwayne_z',
-              },
-              {
-                label: 'Telegram',
-                href: 'https://t.me/narrative_tracking',
-              },
-              {
-                label:'GitHub',
-                href: 'https://github.com/Wayneeeee',
-              }
-            ]
-            },
+          // {
+          //   type: 'dropdown',
+          //   label: 'Social',
+          //   position: 'right',
+          //   items: [
+          //     {
+          //       label: 'Twitter',
+          //       href: 'https://twitter.com/0xwayne_z',
+          //     },
+          //     {
+          //       label: 'Telegram',
+          //       href: 'https://t.me/narrative_tracking',
+          //     },
+          //     {
+          //       label:'GitHub',
+          //       href: 'https://github.com/Wayneeeee',
+          //     }
+          //   ]
+          //   },
 
           
         ],
