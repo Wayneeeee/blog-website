@@ -65,7 +65,7 @@ export default function Home() {
       </header>
       <main>
         <div className={styles.quote}>
-          <p>我们需要革新的破坏者，因为他（她）们心中有理想的光。</p>
+          <p>各种 Google 找为什么网站 404 了，最后发现是因为没有续费，所以前两天网站打不开了。</p>
         </div>
         <div className={styles.statement}>
           <p>
