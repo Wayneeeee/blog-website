@@ -16,6 +16,9 @@ export default function Hello() {
           从爱丁堡大学经济学毕业之后，因为巧合，我很快就进入 Crypto 这个行业，并且加入了数据分析公司 TokenInsight。
         </p>
         <p>
+          2024 年，我现在已经从 TokenInsight 离开。
+        </p>
+        <p>
           如果你想和我取得联系，你可以通过以下方式：
           <ul>
             <li><a href='https://twitter.com/0xwayne_z' target='_blank'>X (Twitter)</a></li>
