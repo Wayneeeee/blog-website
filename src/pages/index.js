@@ -65,7 +65,7 @@ export default function Home() {
       </header>
       <main>
         <div className={styles.quote}>
-          <p>各种 Google 找为什么网站 404 了，最后发现是因为没有续费，所以前两天网站打不开了。</p>
+          <p>草台班子</p>
         </div>
         <div className={styles.statement}>
           <p>
