@@ -1,0 +1,41 @@
+.aboutMeIntro{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 10%;
+  width: 600px;
+
+  
+}
+
+
+.aboutMeIntro h1{
+  font-size: 2rem;
+  font-family: "Gill Sans", sans-serif;
+
+}
+
+.aboutMeIntro p{
+  font-size: 1.2rem;
+  margin-top: 30px;
+  font-family: "Gill Sans", sans-serif;
+}
+
+@media screen and (max-width: 996px){
+  .aboutMeIntro h1{
+    font-size: 2rem;
+    font-family: "Gill Sans", sans-serif;
+  }
+
+  .aboutMeIntro{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10%;
+    width: 80vw;
+  }
+  .aboutMeIntro p{
+    font-size: 1rem;
+  }
+
+}
