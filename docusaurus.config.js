@@ -43,8 +43,7 @@ const config = {
         docs: {
           routeBasePath: '', // 设置为空字符串，移除 /docs 前缀
           sidebarPath: './sidebars.js',
-          showLastUpdateTime: true,
-          showLastUpdateAuthor: true,
+
 
 
           // Please change this to your repo.
@@ -54,8 +53,7 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          showLastUpdateTime: true,
-          showLastUpdateAuthor: true,
+
 
           blogSidebarTitle: 'All posts',
           blogSidebarCount: 'ALL',
