@@ -3,6 +3,8 @@
   "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "了解许多关于 Crypto 的概念。"
+    "description": "了解许多关于 Crypto 的概念。",
+    "slug":"/wiki"
+
   }
 }

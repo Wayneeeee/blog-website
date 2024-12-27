@@ -1,7 +1,8 @@
 {
-  "label": "2024",
+  "label": "NT-2024",
   "position": 1,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "slug":"/nt/2024"
   }
 }

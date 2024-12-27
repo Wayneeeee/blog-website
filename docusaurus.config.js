@@ -41,20 +41,28 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '', // 设置为空字符串，移除 /docs 前缀
           sidebarPath: './sidebars.js',
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
+
+
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/Wayneeeee/blog-website/tree/main/',
+          // editUrl:
+          //   'https://github.com/Wayneeeee/blog-website/tree/main/',
         },
         blog: {
           showReadingTime: true,
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
+
           blogSidebarTitle: 'All posts',
           blogSidebarCount: 'ALL',
           blogTitle: "文章",
           blogDescription: '片面 Crypto 的文章列表。',
-          editUrl:
-            'https://github.com/Wayneeeee/blog-website/blob/main/',
+          // editUrl:
+          //   'https://github.com/Wayneeeee/blog-website/blob/main/',
         },
         gtag: {
           trackingID: 'G-SHML70GYWY',
