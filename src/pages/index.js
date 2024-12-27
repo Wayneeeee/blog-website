@@ -45,7 +45,7 @@ export default function Home() {
       {/* <HomepageHeader /> */}
       <header>
         <div className={clsx('homepagetitle', styles.homepagetitle)}>
-          <img src="https://pmcrypto.xyz/img/wayne.png" alt="wayne"></img>
+          {/* <img src="https://pmcrypto.xyz/img/wayne.png" alt="wayne"></img> */}
         <h1>
           片面 Crypto
         </h1>
@@ -65,7 +65,7 @@ export default function Home() {
       </header>
       <main>
         <div className={styles.quote}>
-          <p>草台班子</p>
+          <p></p>
         </div>
         <div className={styles.statement}>
           <p>
