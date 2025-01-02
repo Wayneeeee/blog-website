@@ -55,7 +55,7 @@ export default function Home() {
             文章列表
           </Link>
           <Link className={clsx('articlelistbutton', styles.articlelistbutton)}
-            to="/nt/2024">
+            to="/nt/2025">
             Narrative Tracking 
           </Link>
 

@@ -13,7 +13,7 @@ export default function Hello() {
           我是 Wayne，平时会对 Crypto 的内容做一些追踪和研究，有时间的时候会写一点东西。这里就是我写东西发布的地方。
         </p>
         <p>
-          从爱丁堡大学经济学毕业之后，因为巧合，我很快就进入 Crypto 这个行业，并且加入了数据分析公司 TokenInsight。
+          毕业之后，因为巧合，我很快就进入 Crypto 这个行业，并且加入了数据分析公司 TokenInsight。
         </p>
         <p>
           2024 年，我现在已经从 TokenInsight 离开。
